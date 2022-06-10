@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: url(https://look.com.ua/pic/201703/1440x900/look.com.ua-200495.jpg);
+  background-size: cover;
+  min-height: 800px;
+  background-position: center;
+}
+
+.container {
+  min-height: 800px;
+}
+
+.navbar {
+  margin-bottom: 80px;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 20px;
+  display: flex;
+  /* justify-content: space-between; */
+  background: none;
+  color: white;
+  align-items: center;
+  height: 50px;
+}
+
+.navbar__brand {
+  margin-left: 5px;
+  margin-right: 480px;
+}
+
+.navbar__brand img {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.navbar__list {
+  list-style-type: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  color: darkred;
+}
+
+.navbar__item {
+  margin-right: 20px;
+}
+
+.block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block img {
+  width: 200px;
+  height: 200px;
+  border-radius: 500px;
+  margin-bottom: 30px;
+}
+
+.block__title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.block__tag {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.block-icon{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+
+}
+.block-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+.icon__item {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 0 10px;
+}
+
+.section {
+  background: white;
+  display: flex;
+  justify-content: center;
+}
+
+.left-block__section {
+  width: 50%;
+  /* margin-left: 40px; */
+}
+.left-block__tag {
+  margin-bottom: 10px;
+  padding-top: 30px;
+}
+
+.left-block__title {
+  color: black;
+  font-size: 18px;
+}
+
+.left-block__description {
+  padding-bottom: 30px;
+  font-size: 18px;
+}
+
+.right-block__section {
+  margin-left: 20px;
+  width: 50%;
+  padding-left: 20px;
+}
+
+.right-block__tag {
+  margin-bottom: 10px;
+  padding-top: 30px;
+}
+
+.right-block__title {
+  margin-bottom: 20px;
+}
+
+.right-block__description {
+  margin-bottom: 20px;
+}
+
+.right-block__description2 {
+  margin-bottom: 20px;
+}
+
+.right-block__description3 {
+  margin-bottom: 20px;
+}
